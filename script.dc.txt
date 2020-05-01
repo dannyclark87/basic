@@ -1,0 +1,261 @@
+/*****************************
+ * Variables and data types
+ */
+/*
+var firstName = 'John';
+conosole.log (firstname)
+
+var lastname = 'Smith';
+var age = 28;
+
+var fullAge = true;
+console.log(fullAge);
+
+var job;
+console.log(job);
+
+job = 'Teacher';
+console.log(job);
+
+// Variable naming rules
+var _3years = 3;
+var johnMarl = 'John and Mark';
+var if = 23;
+*/
+
+
+
+/*********************************
+ * Variable mutation and type coercion
+ */
+/*
+var firstname = 'John';
+var age = 28;
+
+// Type coercion
+console.log(firstName + '   ' + age);
+
+var job, isMarried;
+job = 'teacher';
+isMarried = false;
+
+console.log(firstName + 'is a' + age + 'year old' + job + ' . Is he married? ' + isMarried);
+
+// Variable Mutation
+age = 'twenty eight';
+job = 'driver';
+
+alert(firstName + '   ' + lastName + age + 'year old' + job + '. Is he married? ' + isMarried);
+
+var lastName = prompt('What is his last name?');
+console.log(firstName + '    ' + lastName);
+*/
+
+
+
+/**********************************************************
+ * Basic Operators
+ */
+/*
+var year, yearJohn, yearMark;
+now = 2020;
+ageJohn = 28;
+ageMark = 33;
+
+// Maths operators
+yearJohn = now - ageJohn;
+yearMark = now - ageMark;
+
+console.log(yearJohn);
+
+console.log(now + 2);
+console.log(now * 2);
+console.log (now / 10);
+
+
+//Logical Operators
+var johnOlder = ageJohn > ageMark;
+console.log(johnOlder);
+
+
+//typeof operator
+console.log(typeof johnOlder);
+console.log(typeod ageJohn);
+console.log (typeof 'Mark is older than John');
+var x;
+console.log(typeof x);
+*/
+
+
+
+/******************************
+ * Operator Precedence
+ */
+/*
+var now = 2020;
+var yearJohn = 1991;
+var fullAge = 18
+
+//Multiple Operators
+var isFullAge = now - yearJohn>= fullAge; //true
+console.log(is fullAge);
+
+// Grouping
+var ageJohn = now - yearJohn
+var ageMark = 35
+var average = (ageJohn + ageMArk) / 2;
+console.log(average);
+
+// Multiple assignments
+var x, y;
+x = y = (3 + 5) * 4 - 6; // 8 * 4 - 6 // 32 - 6 // 26
+console.log(x, y);
+
+
+// More operators
+x *= 2;
+console.log(x);
+x += 10;
+console.log(x);
+x--;
+console.log(x)
+*/
+
+
+
+/*********************************
+ * Coding Challenge 1
+ */
+
+ /*
+
+
+ var massMark = 78; // kg
+ var heightMark = 1.69; // metres
+
+ var massJohn = 92
+ var heightJohn = 1.95
+
+ var BMIMark = massMark / (heightmark * heightMArk);
+ var BMIJohn = massJohn / (heightJohn * heightJohn); 
+ console.log(BMIMark, BMIJohn);
+
+ var markHigherBMI = BMIMark > BMIJohn;
+ console.log( 'Is Mark\'s BMI higher than John\'s ?' + markHigherBMI');
+ */
+
+
+
+
+
+/**********************************
+* If / Else Statements
+//
+//
+var firstName = 'John';
+var civilStatus = 'single;
+
+if (civilStatus === 'married') {
+    console.log(firstName + 'is married!');
+} else {
+    console.log(firstName + 'will hopefully marry soon :)');
+}
+
+var isMarried = true;
+if (isMarried) {
+    console.log(firstName + 'is married!');
+} else {
+    console.log(firstName 'will hopefully marry soon :)');
+}
+
+var massMark = 78
+var heighMark = 1.69
+
+var massJohn = 92
+var heighJohn = 1.95
+
+var BMIMark = massMark / (heightMark * heightMark);
+var BMIJohn = massJohn / (heightJohn * heightJohn);
+
+if (BMIMark > BMIJohn) {
+    console.log('MArk\'s BMI is higher than John\'s.');
+} else {
+    console.log('John\'s BMI is higher than Mark\'s.');
+
+}
+/*
+
+
+
+
+
+/**************************************
+/* Boolean Logic
+ 
+var firstName = 'John';
+var age = 20;
+
+if (age < 13) {
+    console.log(firstName + ' is a boy'); 
+} else if (age >=13 && age <20) {
+} else if (age >= 20 && age <30) {
+    console.log(firstName + 'is a young man');
+}  else {
+    console.log(firstName + 'is a man');
+}
+
+
+
+
+
+
+/*******************************************
+* The ternary Operator and Switch Statements
+*/
+
+var firstName = 'John';
+var age = 16;
+
+age >= 18 ? console.log(firstName + 'drinks beer.') : console.log(firstName + 'drinks juice.');
+
+var drink = age >= 18 ? 'beer' : 'juice';
+
+// Switch Operators
+var job = 'teacher';
+switch (job) {
+    case 'teacher':
+        console.log(firstName + 'teaches kids how to code.');
+        break;
+    case 'driver' :
+        console.log(firstName +'drives an Uber in Lisbon.');
+        break;
+    case 'designer' :
+        console.log(firstName + 'designs beautiful wesites.');
+        break;
+    }
+   
+    
+
+
+
+
+/************************************
+ * Truthy and falsy values and quality operators
+ */
+
+ //falsy : undefinesd, null, 0, ' ' , NaN
+ //truthty values : the opposite
+
+ var height;
+
+ if (height) {
+     console.log('Variable is defined');
+ } else {
+     console.log('Variable has NOT been defined');
+     }
+
+
+
+
+
+
